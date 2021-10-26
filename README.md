@@ -94,3 +94,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Setup and Install
+
+### Clone the remote repository
+
+You can clone the project using the this command `git clone https://github.com/Jb-1998/WP-Challonge-Tournament.git` to your local machine so that you can have access to all project files and codebase.
+
+### Install all dependencies 
+
+After the repository has been clone, you should install all the dependencies first from the package.json file. This is important so that the application will run based on the libary used for the project. Go to your root directory from your bash or command line and run `yarn install` command to install all dependencies.
+
+### Create an .env file in the root directory of the project
+
+Once all the dependencies has been installed. Create a .env file where we will store the API we will be using to create tournaments and other transactions with Challonge.com. If you don't have API, you can create an account to [Challonge.com](https://challonge.com/) and go to settings, then developers API tab, then generate an API Key. Once you have your API generated, copy the api and paste it on the .env file. Follow this format for creating an API_KEY variable inside your .env configuration`(e.g. API_KEY=yourapikey)`.
+
+### Run the Application
+
+Once all the requirements has been setup run the command `yarn dev` from your terminal and will run the server first at port 3001 then the web application first will automatically open on your browser at http://localhost:3000. 
+
+**Note: Please note that after the server run, it will take a few seconds before the actual web application displays on your browser and run on http://localhost:300. **
+
+### Happy Testing
+
+If you have any questions or concerns about the project, please email me at jbstaromana.jbsr@gmail.com. Happy Testing.
+
