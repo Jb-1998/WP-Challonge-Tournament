@@ -50,7 +50,7 @@ Once all the dependencies has been installed. Create a .env file where we will s
 
 Once all the requirements has been setup run the command `yarn dev` from your terminal and will run the server first at port 3001 then the web application first will automatically open on your browser at http://localhost:3000. 
 
-**Note: Please note that after the server run, it will take a few seconds before the actual web application displays on your browser and run on http://localhost:300. **
+**Note: Please note that after the server run, it will take a few seconds before the actual web application displays on your browser and run on http://localhost:3000.**
 
 ### Happy Testing
 
