@@ -1,10 +1,36 @@
-# Getting Started with Create React App
+# Challonge Tournament Platform
+
+This project is called "Battle Of The Fans" platform. It is based on the Challonge API which allows the platform to create tournaments, add participants and start matches. Currently the game allows to create a tournament for limited number of game such as League of Legends Wild Rift, Valorant and DOTA. Small and community based tournaments can utilized the platform for their events and manage all participants who will be joining for the competitions.
+
+## About Challonge 
+
+Challonge, a Logitech Company, is a competition management technology that helps organizers streamline registration, progression and record keeping. Founded in 2009, Challonge offers more that 25 competition types as both a web-based software-as-a-service (SaaS) platform and as an API that can be integrated into websites, games, bots andother software applications.
+
+## Challonge API
+
+If you'd like to learn more on how to integrate the Challonge API to your system, please refer to this documentation.
+[Challonge API](https://api.challonge.com/v1).
+
+# Getting Started with the Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `yarn dev`
+
+Runs the app and the proxy server in local development mode which allows the client to interact with Challonge API without any CORS related issues encountered.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+**Note: You can view all API used by the application inside the index of server directory**
+Proxy Server will run on [http://localhost:3001]
+
+### `yarn server`
+
+Runs only the server for local development testing of API. You can test all the API using postman to validate all response object coming for each request. 
+Server will run on [http://localhost:3001]
 
 ### `yarn start`
 
