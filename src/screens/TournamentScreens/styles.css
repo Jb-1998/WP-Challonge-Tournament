@@ -1,0 +1,128 @@
+.layout-style {
+  min-height: 100vh;
+  background-color: white;
+}
+.content-style {
+  padding: 50px 0;
+  height: 100vh;
+  background-color: white;
+}
+.btn-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title-style {
+  color: black;
+  font-size: 25px;
+  margin-top: 60px;
+  padding-left: 20vw;
+  padding-right: 30vw;
+  font-weight: bold;
+}
+.subtitle-style {
+  color: black;
+  font-size: 15px;
+  margin-top: -10px;
+  background-color: white;
+  padding-left: 20vw;
+  padding-right: 30vw;
+}
+.form-container-style {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.form-header-container-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.form-title-style {
+  font-weight: bold;
+  font-size: 18px;
+}
+.form-label-style {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+.form-description-style {
+  text-align: left;
+}
+
+.add-participant-btn-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e61937;
+  border-color: #e61937;
+}
+.start-tournament-btn-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  background-color: #010c44;
+  border-color: #010c44;
+}
+
+.details-tab-container-style {
+  overflow-y: auto;
+  height: 50vh;
+}
+.details-title-style {
+  font-size: 15px;
+  font-weight: bold;
+}
+.details-description-style {
+  font-size: 12;
+  width: 90%;
+}
+
+.form-tournament-title-style {
+  font-size: 18px;
+  font-weight: bold;
+}
+.form-tournament-subtitle {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: -10;
+}
+.tab-container-style {
+  padding-left: 5px;
+  min-height: 100vh;
+  border-radius: 0;
+}
+.tab-component-style {
+  background-color: white;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-top: 10px;
+}
+.create-tournament-btn-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #010c44;
+  border-color: #010c44;
+}
+.cover-img-style {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.card-style {
+  border-radius: 5px;
+  border-width: 0.1px;
+  border-style: solid;
+  border-color: #c1c1c1;
+}
+.card-p-style {
+  margin-top: -15px;
+}
+.card-span-style {
+  font-weight: bold;
+}

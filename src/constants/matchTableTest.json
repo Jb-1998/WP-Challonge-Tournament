@@ -1,0 +1,13 @@
+[
+  {
+    "match": {
+      "id": 123655,
+      "round": 1,
+      "player1_id": 166588,
+      "player2_id": 266544,
+      "created_at": "2021-10-25T08:45:09.993-04:00",
+      "winner_id": null,
+      "loser_id": null
+    }
+  }
+]
